@@ -10,7 +10,7 @@ Realtime chat web application using J2EE and HTML5 web socket.
 -The admin can add and delete a user.
 
 -The user can chat with other users in realtime using HTML5 web socket
-rather than using long pooling techniques to achieve realtime chatting.
+rather than using long polling techniques to achieve realtime chatting.
 
 -JSON was used for messages between the client and the server.
 
@@ -18,6 +18,6 @@ rather than using long pooling techniques to achieve realtime chatting.
 
 -The list of available users is cached at the server to improve application's performance and reduce overhead on the database.
 
--A servlet has been used to represent the controller(the server), and JSPs for the views(web pages).
+-A servlet was used to represent the controller(the server), and JSPs for the views(web pages).
 
--And of course, Javascript, JQuery and AJAX have been used in this project.
+-And of course, Javascript, JQuery and AJAX were used in this project as well.
